@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+#container__principal {
+    background-color: green;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#container__conteudo {
+    background-color: #fff;
+    width: 700px;
+    padding: 30px 50px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #262626;
+}
+
+h2 {
+    margin-bottom: 40px;
+    color: #fff;
+    font-size: 22pt;
+}
+
+#container__pesquisa {
+    width: 100%;
+    display: flex;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+#container__pesquisa::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    border-top: 2px solid #6666;
+    margin-top: 70px;
+}
+
+#caixa__busca {
+    width: 80%;
+    height: 40px;
+    padding: 5px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #9d9d9d;
+}
+
+#botao {
+    width: 20%;
+    margin-left: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: green;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+}
+
+#botao:hover {
+    background-color: rgb(47, 159, 47);
+}
+
+#palavra {
+    color: green;
+    font-size: 22px;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+}
+
+.definicao {
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
+span {
+    color: green;
+    font-size: 18px;
+}
+
+
+
+
+
